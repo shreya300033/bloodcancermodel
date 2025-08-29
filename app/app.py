@@ -4,7 +4,8 @@ from tensorflow.keras.models import load_model
 import numpy as np
 
 # Load the pre-trained model
-model = load_model('final1_model.h5')
+model = load_model('app/final1_model.h5')
+
 
 # Function to preprocess the uploaded image and make predictions
 def predict_blood_cancer(image):
